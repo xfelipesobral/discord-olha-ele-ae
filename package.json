@@ -1,0 +1,29 @@
+{
+  "name": "discord-olha-ele-ae",
+  "version": "1.0.0",
+  "description": "Bot para discord que reproduz o meme toda vez que alguém entra no canal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfelipesobral/discord-olha-ele-ae.git"
+  },
+  "keywords": [
+    "olha",
+    "ele",
+    "ai",
+    "bot",
+    "discord"
+  ],
+  "author": "Felipe Vieira Sobral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xfelipesobral/discord-olha-ele-ae/issues"
+  },
+  "homepage": "https://github.com/xfelipesobral/discord-olha-ele-ae#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
