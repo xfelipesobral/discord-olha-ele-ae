@@ -18,7 +18,9 @@ class Bot {
     }
 
     commands() {
-        this.client.on('messageCreate', commands)
+        this.client.on('messageCreate', message => {
+            commands(this.client, message)
+        })
     }
 
     channel() {

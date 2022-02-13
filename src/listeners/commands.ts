@@ -1,9 +1,19 @@
-import { Message } from 'discord.js'
+import { Client, Message } from 'discord.js'
 
-function commands(message: Message) {
+import { joinChannel } from './channel'
+
+function commands(client: Client, message: Message) {
     if (message.author.bot) return
+    
+    const [flag, command, value] = message.content.split(' ')
+    if (flag !== '!olhaeleai') return
+ 
+    if (command === 'canal') {
+        if (!value) return
 
-    message.reply('Idiotinha')
+        // Entrar no canal
+        joinChannel(client, value)
+    }
 }
 
 export { commands }

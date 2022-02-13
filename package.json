@@ -24,9 +24,11 @@
   },
   "homepage": "https://github.com/xfelipesobral/discord-olha-ele-ae#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.7.0",
     "@discordjs/voice": "^0.8.0",
     "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "ffmpeg-static": "^4.4.1"
   },
   "devDependencies": {
     "ts-node-dev": "^1.1.8",
